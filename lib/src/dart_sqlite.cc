@@ -5,7 +5,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "/usr/local/opt/dart/libexec/include/dart_api.h"
+#include "/usr/lib/dart/include/dart_api.h"
 #include "sqlite3.h"
 
 #define DART_ARG(name, i) Dart_Handle name = Dart_GetNativeArgument(arguments, i);

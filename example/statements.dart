@@ -43,7 +43,8 @@ Future<void> _inspectResults(Database db) async {
 }
 
 Future<void> main(List<String> args) async {
-  final Database db = new Database.inMemory();
+  //final Database db = new Database.inMemory();
+  final db = Database('example.db');
   await _runSimpleQuery(db);
   await _createAndInsertEntries(db);
   await _useStatements(db);

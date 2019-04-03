@@ -9,7 +9,8 @@ SQLite bindings for the Dart VM
 Add the library to your specs:
 ```
 dependencies:
-  sqlite: ^0.3.0
+  sqlite: 
+    git: https://github.com/putraxor/dart-sqlite
 ```
 
 
